@@ -1,0 +1,50 @@
+#canvas{
+	height: 100%;
+	width: 100%;
+	background-color: rgb(255,220,220);
+}
+input{
+	display: block;
+	border: 2px solid rgb(255, 133, 133);
+	width: 40%;
+	margin: 0 auto;
+}
+button{
+	display: block;
+	border: 2px solid rgb(255, 133, 133);
+	background-color: rgb(255,220,220);
+	width: 40%;
+	margin: 0 auto;
+}
+h2{
+	text-align: center;
+	color: red;
+
+}
+p{
+	color: rgb(255, 133, 133);
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+#gameoverscreen,#pausescreen{
+	display: none;
+	background-color: white;
+	z-index: 101;
+	padding: 5%;
+	height: 50%;
+	width: 50%;
+}
+#record{
+	width: 50%;
+	border: 2px solid black;
+	background-color: rgb(255,220,220);
+	margin: 2% auto;
+}
+#menu{
+	padding-top: 20%;
+}
+.ui-dialog-titlebar-close {
+	display: none;
+}
